@@ -17,9 +17,10 @@ const java = 70
 const App = () => {
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary">
-        <Container fluid>
-          <Navbar.Brand href="#" style={{ marginLeft: "100px", fontWeight: 'bold', color: 'skyblue' }}>Portfolio</Navbar.Brand>
+      <Container style={{backgroundColor:'white'}}>
+      <Navbar expand="lg" style={{backgroundColor:'white'}} >
+        <Container fluid >
+          <Navbar.Brand href="#" style={{fontWeight: 'bold', color: 'skyblue' }}>Portfolio</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -46,7 +47,10 @@ const App = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-
+      </Container>
+      <br/>
+      
+      <Container>
       <Carousel>
         <Carousel.Item>
           <img src='https://th.bing.com/th/id/R.bcb5033df81b89dc8b1d4faa6a3d9d70?rik=QTozvQl9BcNfjw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f3%2f9%2fe%2f490037.jpg&ehk=mMmpYEBZr40cUNUWhwIBZiSMhaYiQFEGe156rOdLlOA%3d&risl=&pid=ImgRaw&r=0' style={{ height: '650px', width: '100%' }} />
@@ -72,6 +76,7 @@ const App = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+      </Container>
       <br />
       <center><h1>About My Projects</h1></center>
       <br />
@@ -126,6 +131,8 @@ const App = () => {
       <br />
       <hr />
       <Container>
+      <Row>
+        <Col sm={8}><Container>
         <h1>ABOUT MY SKILLS</h1>
         <br />
         <h4>CPP PROGRAMMING</h4>
@@ -140,7 +147,15 @@ const App = () => {
         <h4>JS DEVELOPMENT</h4>
         <ProgressBar style={{ width: "50%", height: "15px", backgroundColor: "lightblue" }} now={now} label={`${now}%`} />
         <br />
-      </Container>
+      </Container></Col>
+        <Col sm={4}>
+        <Col>
+          <img src="/Images/suraj.jpeg" style={{height:'400px', borderRadius:'50%'}} />
+        </Col>
+        </Col>
+      </Row>
+    </Container>
+      
       <br />
       <hr />
       <br />
@@ -247,129 +262,129 @@ const App = () => {
       <br/>
       <center><h1>Here Are My Achievement Cirtificates</h1></center>
       <br/>
-      <Container style={{objectFit:'cover',width:'80%'}}>
+      <Container>
       <Carousel>
         <Carousel.Item>
-          <img src='public/Images/a.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/a.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption >
             <h4>First slide label</h4>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/b.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='Images/b.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/c.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/c.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/d.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/d.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/e.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/e.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/f.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/f.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/g.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/g.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/h.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/h.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/i.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/i.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/j.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/j.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/k.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/k.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/l.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/l.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/m.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/m.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/n.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/n.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/o.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/o.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/p.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/p.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/q.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/q.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img src='public/Images/r.jpg' style={{ height: '650px', width: '100%' }} />
+          <img src='/Images/r.jpg' style={{ height: '650px', width: '100%' }} />
           <Carousel.Caption>
             <h4>Second slide label</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -400,6 +415,69 @@ const App = () => {
     </Pagination>
       </Container>
       <br/>
+
+      <Container style={{backgroundColor:'aliceblue',margin:'auto',width:'70%',padding:'20px'}}>
+      <Form>
+      <Row className="mb-3">
+        <Form.Group as={Col} controlId="formGridEmail">
+          <Form.Label>Email</Form.Label>
+          <Form.Control type="email" placeholder="Enter email" />
+        </Form.Group>
+
+        <Form.Group as={Col} controlId="formGridPassword">
+          <Form.Label>Password</Form.Label>
+          <Form.Control type="password" placeholder="Password" />
+        </Form.Group>
+      </Row>
+
+      <Form.Group className="mb-3" controlId="formGridAddress1">
+        <Form.Label>Address</Form.Label>
+        <Form.Control placeholder="1234 Main St" />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formGridAddress2">
+        <Form.Label>Address 2</Form.Label>
+        <Form.Control placeholder="Apartment, studio, or floor" />
+      </Form.Group>
+
+      <Row className="mb-3">
+        <Form.Group as={Col} controlId="formGridCity">
+          <Form.Label>City</Form.Label>
+          <Form.Control />
+        </Form.Group>
+
+        <Form.Group as={Col} controlId="formGridState">
+          <Form.Label>State</Form.Label>
+          <Form.Select defaultValue="Choose...">
+            <option>Choose...</option>
+            <option>MP</option>
+            <option>UP</option>
+            <option>BIHAR</option>
+            <option>PUNJAB</option>
+            <option>WEST BENGAL</option>
+            <option>...</option>
+          </Form.Select>
+        </Form.Group>
+
+        <Form.Group as={Col} controlId="formGridZip">
+          <Form.Label>Zip</Form.Label>
+          <Form.Control />
+        </Form.Group>
+      </Row>
+
+      <Form.Group className="mb-3" id="formGridCheckbox">
+        <Form.Check type="checkbox" label="Check me out" />
+      </Form.Group>
+
+      <Button variant="primary" type="submit">
+        Submit
+      </Button>
+    </Form>
+      </Container>
+      <br/>
+      <Container style={{backgroundColor:'aliceblue',boxShadow:'0px 0px 2px', height:'400px',width:'100%',display:'flex', alignItems:'center',justifyContent:'center'}}>
+        <h1>FOOTER PART</h1>
+      </Container>
     </>
   )
 }
