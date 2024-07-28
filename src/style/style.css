@@ -1,0 +1,63 @@
+
+#navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: white;
+}
+#crsl img{
+    height: 500px;
+    width: 900px;
+}
+#link{
+    color: blue;
+    text-decoration: underline;
+}
+#form{
+    margin: auto;
+   height: 400px;
+   width: 400px; 
+}
+#forgot{
+    margin-left: 275px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#portfolio img{
+    height: 180px;
+    border-radius: 10px;
+    padding: 2px;
+}
+#navbar{
+    background-color: darkslategrey;
+}
+#navbar a{
+    color: white;
+}
+#portfolio Card.text{
+    background-color: red;
+}
+body{
+    background-color: darkslategrey;
+    color: white;
+}
+#icon{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 15px;
+    font-size: 25px;
+    color: aliceblue;
+    cursor: pointer;
+}
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
