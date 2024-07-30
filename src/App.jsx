@@ -1,6 +1,3 @@
-
-
-import Container from 'react-bootstrap/Container';
 import TopModel from "./Components/TopModel";
 import MiddleModel from './Components/MiddleModel';
 import Cards from './Components/Cards';
